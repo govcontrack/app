@@ -752,3 +752,6 @@ const GovContractTracker = () => {
 };
 
 export default GovContractTracker;
+// Also export as App for compatibility
+export { GovContractTracker as App };
+export default GovContractTracker;
